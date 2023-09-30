@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#current-image-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-inline: 50px;
+    color: white;
+}
+#current-image-container>img,#current-image-container>h1,.content{
+    margin-left:5%;
+    margin-bottom: 10px;
+}
+.search{
+    margin-top: 20px;
+    margin-left: 47px;
+}
+.search>*{
+    margin-bottom: 10px;
+}
+.para{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
+}
+ul{
+    list-style-type:none;
+}
+ul>*{
+    margin-top: 5px;
+}
